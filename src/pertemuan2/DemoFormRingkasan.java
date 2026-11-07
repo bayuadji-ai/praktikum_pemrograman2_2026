@@ -30,7 +30,7 @@ public class DemoFormRingkasan {
     kartu.add(buatPanelForm(), FORM);
     kartu.add(buatPanelRingkasan(), RINGKASAN);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-     frame.setContentPane(kartu);
+    frame.setContentPane(kartu);
     frame.pack();
     frame.setLocationRelativeTo(null);
     navigasi.show(kartu, FORM);
